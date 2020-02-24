@@ -17,6 +17,17 @@
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        <div class="container">
+      <section id="main_content">
+        <p>
+          <a href="https://hackybloger.github.io//" style="margin-right:20px">Home</a>
+          <a href="https://hackybloger.github.io//Projects%22style=%22margin-right:20px%22%3EProjects</a>
+          <a href="https://hackybloger.github.io//About.html" style="margin-right:20px">About</a>
+          <a href="https://hackybloger.github.io//_posts.html" style="margin-right:20px">About</a>                                                                            
+        </p>
+        {{ content }}
+      </section>
+    </div>
 <!-- Download Buttons
         <section id="downloads">
           {% if site.show_downloads %}
