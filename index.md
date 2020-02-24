@@ -3,7 +3,7 @@ layout: default
 ---
 ## Categories 
 
-| [Projects](./projects/test2.md) | [about](./about) | [Posts](./_posts)
+| [Projects](./projects/test2.md) | [about](./about) | [Posts](./posts)
 
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
